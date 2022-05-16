@@ -83,3 +83,14 @@ There are 4 main types of data types in boothmancript:
 > 2. String (Text)
 > 3. Integers (Whole Number - 69)
 > 4. Float (Decimal Number - 69.420)
+
+### BOOLEANS 
+Booleans are the simplest type in boothmancript, they can have 2 possible values: true / false
+Since booleans only have 2 possiblities (1 or 0) they can also be stored using very little space.
+```
+let my_bool = true;  //type: bool
+```
+
+
+
+
