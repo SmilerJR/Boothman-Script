@@ -1,10 +1,6 @@
- #############
-#
-#@copyright kanye north-east
-#
-#The most advanced language ever made
-#
-#############
+# Copyright 2022 Boothman Script
+# Founder N
+# New Owners = Josh, Davis
 from sys import setrecursionlimit
 import re
 import json
