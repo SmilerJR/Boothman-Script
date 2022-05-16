@@ -31,5 +31,8 @@ BoothmanScript should now be installed.
 In boothmanscript, the first thing that is executed is the main function
 this is where your code will go, and may branch off to call other user-defined functions
 To define the main function, you must tell boothmancript it is a function, using the "fn" keyword.
-
+> fn main() do
+>   //your code goes here
+> end
+   
 
