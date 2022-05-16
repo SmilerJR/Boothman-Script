@@ -59,12 +59,12 @@ The semicolon tells the compiler that our line is done and can move onto the nex
 ## INCLUDING FILES#
 Including a file is a useful feature in boothmanscript. It allows to have multiple files in a project that link into one file.
 Including a file will copy all of the code in the file sepcified and place it in the file including it.
-"my_file.booth":
+>"my_file.booth":
 
 ```
 let my_number = 100;
 ```
-"main.booth":
+>"main.booth":
 
 ```
 #include "my_file"; //copies all the code in "my_file.booth"
