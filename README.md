@@ -26,6 +26,9 @@ To install BoothmanScript, there a few steps you must do.
 
 BoothmanScript should now be installed.
 
+# RUNNING YOUR FIRST FILE
+(TBA)
+
 # FIRST STEPS
 ## THE MAIN FUNCTION
 In boothmanscript, the first thing that is executed is the main function
