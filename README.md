@@ -1,2 +1,2 @@
 # Boothman-Script
-le epic programming language
+# INSTALL INSTRUCTIONS
