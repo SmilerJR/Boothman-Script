@@ -63,7 +63,7 @@ Including a file will copy all of the code in the file sepcified and place it in
 
 ```
 let my_number = 100;
-
+```
 "main.booth":
 
 ```
