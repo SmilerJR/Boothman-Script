@@ -1,5 +1,5 @@
-# MADE BY N.G 
-
+# MADE BY N
+# ADDED TO GITHUB AND UPDATED BY J
 
 # Boothman-Script
 BoothmanScript is the best programming language ever made
