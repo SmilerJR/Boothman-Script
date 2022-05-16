@@ -39,5 +39,14 @@ fn main() do
    //your code goes here
 end
 ```
-   
+// means the rest of the line past the 2 slashes will be a comment, and will be ignored by the compiler
+
+## CREATING VARIABLES 
+Sometimes in our program, we may want the computer to remember something that we can use later.
+To do this, we can use a variable. Variables are changable things the computer can remember.
+Defining a keyword is done by using the "let" keyword, followed by the name, = and a value.
+```
+let number = 50;
+```
+
 
