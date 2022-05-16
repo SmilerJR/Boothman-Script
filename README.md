@@ -1,3 +1,5 @@
+# MADE BY NIALL GRIMSHAW
+
 # Boothman-Script
 BoothmanScript is the best programming language ever made
 It aims to make you slam your keyboard and shout "ITS WALTER" in rage - styll
@@ -16,4 +18,9 @@ To install BoothmanScript, there a few steps you must do.
 2. double click "boothc.py" to generate the __pycache__ folder.
 
 3. double click src/main.booth and set it to always open in notepad - optional but saves time
+
+BoothmanScript should now be installed.
+
+# FIRST STEPS
+## THE MAIN FUC
 
