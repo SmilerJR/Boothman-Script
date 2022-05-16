@@ -22,5 +22,9 @@ To install BoothmanScript, there a few steps you must do.
 BoothmanScript should now be installed.
 
 # FIRST STEPS
-## THE MAIN FUC
+## THE MAIN FUNCTION
+In boothmanscript, the first thing that is executed is the main function
+this is where your code will go, and may branch off to call other user-defined functions
+To define the main function, you must tell boothmancript it is a function, using the "fn" keyword.
+
 
