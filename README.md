@@ -75,3 +75,7 @@ println(my_number);
 Files included can also include more files, nestings includes.
 Note that files to be included should be placed in the src folder.
 Files in the main folder of boothmanscript are still able to be included, but they are usually used for libraries built into the language.
+
+## DATA TYPES
+Each variable has a type. The type tells the compiler how to use that variable correctly.
+There are 4 main types of data types in boothmancript:
