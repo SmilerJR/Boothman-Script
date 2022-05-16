@@ -90,10 +90,20 @@ Since booleans only have 2 possiblities (1 or 0) they can also be stored using v
 ```
 let my_bool = true;  //type: bool
 ```
-### Strings
+### STRINGS
 Strings are used in boothmanscript to store text.
 ```
 let my_string = "Hello World!"; //type: str
+```
+### INTEGERS
+Integers are used to store whole numbers.
+```
+let my_integer = 69; //type: int
+```
+### FLOAT 
+Float are used to store decimal numbers.
+```
+let my_float = 69.420; //type: float
 ```
 
 
