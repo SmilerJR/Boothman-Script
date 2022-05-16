@@ -48,5 +48,32 @@ Defining a keyword is done by using the "let" keyword, followed by the name, = a
 ```
 let number = 50;
 ```
+If we wanted to reference the value of our number variable, we could just call its name, like so:
+```
+println(number);
+```
+This would be the same as typing "println(50);".
+Also notice how every line except from "end" and "do" starts with a semicolon.
+The semicolon tells the compiler that our line is done and can move onto the next line of code.
 
+## INCLUDING FILES#
+Including a file is a useful feature in boothmanscript. It allows to have multiple files in a project that link into one file.
+Including a file will copy all of the code in the file sepcified and place it in the file including it.
+"my_file.booth":
 
+```
+let my_number = 100;
+
+"main.booth":
+
+```
+#include "my_file"; //copies all the code in "my_file.booth"
+
+println(my_number);
+```
+
+Files included can also include more files, nestings includes.
+Note that files to be included should be placed in the src folder.
+Files in the main folder of boothmanscript are still able to be included, but they are usually used for libraries built into the language.
+
+```
