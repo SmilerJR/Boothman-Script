@@ -79,3 +79,7 @@ Files in the main folder of boothmanscript are still able to be included, but th
 ## DATA TYPES
 Each variable has a type. The type tells the compiler how to use that variable correctly.
 There are 4 main types of data types in boothmancript:
+> 1. Boolean (True / False)
+> 2. String (Text)
+> 3. Integers (Whole Number - 69)
+> 4. Float (Decimal Number - 69.420)
