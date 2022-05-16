@@ -1,0 +1,10 @@
+#pragma once;
+from sys use stdout;
+
+fn println(buffer=void) -> void {
+    print(buffer if buffer else "");
+}
+
+fn printf(buffer: str) -> void {
+    let _temp = stdout::write(str(buffer));
+}
