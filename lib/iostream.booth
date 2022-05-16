@@ -1,0 +1,17 @@
+#pragma once;
+
+from sys use stdout;
+
+fn cin(self, text: str = "") -> str {
+    return input(text);
+}
+
+fn cout(self, text) -> void {
+    let _temp = stdout::write(text);
+}
+
+//bind cin and cout to the STD namespace
+std::cin = cin::__get__(std);
+std::cout = cout::__get__(std);
+drop(cin);
+drop(cout);

@@ -1,0 +1,36 @@
+#pragma once;
+
+//standard library for boothmanscript
+
+from dataclasses use dataclass;
+
+@dataclass(frozen=true);
+struct constant {
+    value: void;
+}
+
+fn addr_of(var: void) -> str {
+    return hex(id(var));
+}
+
+fn assert_eq(x: void, y: void) -> void {
+    assert x == y;
+}
+
+fn abort(msg = void) -> void {
+    exit(msg if msg else "");
+}
+
+fn sort(self, data: list) -> list {
+    for i in range(len(data)) {
+        for j in range(len(data) - 1) {
+            if (data[j] > data[j+1]) {
+                data[j], data[j+1] = data[j+1], data[j];
+            }
+        }
+    }
+    return data;
+}
+
+std::sort = sort::__get__(std);
+drop(sort);
