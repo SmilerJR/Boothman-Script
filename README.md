@@ -1,7 +1,3 @@
-# MADE BY N
-# ADDED TO GITHUB AND UPDATED BY JOSH
-# WITH HELP FROM DAVIS
-
 # Boothman-Script
 BoothmanScript is a programming language made by immature students so if it doesnt work you know why, we kinda thought it would be cool to own our own programming language and it also looks good on a resume. It's Muti-Purpose and can be used for most programs.
 
