@@ -52,7 +52,7 @@ This would be the same as typing "println(50);".
 Also notice how every line except from "end" and "do" starts with a semicolon.
 The semicolon tells the compiler that our line is done and can move onto the next line of code.
 
-## INCLUDING FILES#
+## INCLUDING FILES
 Including a file is a useful feature in boothmanscript. It allows to have multiple files in a project that link into one file.
 Including a file will copy all of the code in the file sepcified and place it in the file including it.
 >"my_file.booth":
