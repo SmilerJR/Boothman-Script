@@ -23,8 +23,6 @@ To install BoothmanScript, there a few steps you must do.
 
 BoothmanScript should now be installed.
 
-# RUNNING YOUR FIRST FILE
-go into the src folder and add your code to the folder call your file "main". Then go into the Pycashe folder and run "out.booth.cpython-39" Your File should run 
 # FIRST STEPS
 ## THE MAIN FUNCTION
 In boothmanscript, the first thing that is executed is the main function
@@ -71,6 +69,9 @@ println(my_number);
 Files included can also include more files, nestings includes.
 Note that files to be included should be placed in the src folder.
 Files in the main folder of boothmanscript are still able to be included, but they are usually used for libraries built into the language.
+
+## RUNNING YOUR FIRST FILE
+go into the src folder and add your code to the folder call your file "main". Then go into the Pycashe folder and run "out.booth.cpython-39" Your File should run
 
 # DATA TYPES
 Each variable has a type. The type tells the compiler how to use that variable correctly.
