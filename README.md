@@ -102,6 +102,8 @@ Float are used to store decimal numbers.
 let my_float = 69.420; //type: float
 ```
 
+#
+
 
 
 
