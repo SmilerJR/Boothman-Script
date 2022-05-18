@@ -225,7 +225,7 @@ class Syntax_analysis(Lexical_analysis):
             i += 1
         return final_code
 
-with open(".booth.config", "r") as f:
+with open("booth.config", "r") as f:
     config = json.load(f)
 autorun = config["autorun"]
 version = config["version"]
