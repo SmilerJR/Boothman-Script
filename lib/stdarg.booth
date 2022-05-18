@@ -1,0 +1,20 @@
+#pragma once;
+
+using sys;
+
+fn argc() do
+    return len(sys::argv);
+end
+
+fn argv(index=void) do
+    if index do
+        return sys::argv[index];
+    end
+    return sys::argv;
+end
+
+std::argc = argc::__get__(std);
+std::argv = argv::__get__(std);
+
+drop(argc);
+drop(argv);
