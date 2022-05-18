@@ -1,0 +1,12 @@
+#pragma once;
+
+using sys;
+
+fn malloc(byte_count) -> list do
+    return [null] * byte_count;
+end
+
+fn realloc(malloc_obj, byte_count) -> list do
+    malloc_obj::extend([null] * byte_count);
+    return malloc_obj;
+end
