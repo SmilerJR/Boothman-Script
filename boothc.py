@@ -1,4 +1,4 @@
-# Copyright 2022 Boothman Script
+# Boothman Script
 # Founder N
 # New Owners = Josh, Davis
 from sys import setrecursionlimit
@@ -229,6 +229,7 @@ with open("booth.config", "r") as f:
     config = json.load(f)
 autorun = config["autorun"]
 version = config["version"]
+debug = config["debug"]
 print("[boothc] version: "+version+"\n")
 
 with open("src/main.booth", "r") as f:
@@ -238,25 +239,23 @@ print("[boothc] finished Lexical Analysis")
 print("[boothc] finished Syntax Analysis")
 print("Analyzed in "+str(round(time()-start, 3))+"s")
 
-debug = False
 
+print(f"[boothc] DEBUG={str(debug).lower()} | AUTORUN={str(autorun).lower()} | OUT=\"__pycache__/\"")
+import base64
+enc_code = base64.b64encode(code.encode("ascii")).decode("ascii")
+with open("out.booth.IL", "w+") as f:
+    f.write(f"from base64 import b64decode as VhjvberhbvKHV;Jb436jb456jkUuB345='{enc_code}';JHbrejkbLKNERH=exec;JHbrejkbLKNERH(VhjvberhbvKHV(Jb436jb456jkUuB345.encode('ascii')).decode('ascii'));print('\\nprocess finished with exit code 0');input('Press ENTER to return')")
+py_compile.compile("out.booth.IL")
+print("Successfully compiled to __pycache__ folder")
+if not isfile("__pycache__/double click the other file!"):
+    with open("__pycache__/double click the other file!", "w") as f:
+        pass
 if debug:
     print("Debug output:\n\n")
     print(code) #print code parsed to python
-else:
-    print("[boothc] DEBUG=false OUT=\"__pycache__/\"")
-    import base64
-    code  = base64.b64encode(code.encode("ascii")).decode("ascii")
-    with open("out.booth.IL", "w+") as f:
-        f.write(f"from base64 import b64decode as VhjvberhbvKHV;Jb436jb456jkUuB345='{code}';JHbrejkbLKNERH=exec;JHbrejkbLKNERH(VhjvberhbvKHV(Jb436jb456jkUuB345.encode('ascii')).decode('ascii'));print('\\nprocess finished with exit code 0');input('Press ENTER to return')")
-    py_compile.compile("out.booth.IL")
-    print("Successfully compiled to __pycache__ folder")
-    if not isfile("__pycache__/double click the other file!"):
-        with open("__pycache__/double click the other file!", "w") as f:
-            pass
-    if autorun:
-        with open("out.booth.IL", "r") as f:
-            print("Running..\n\n")
-            exec(f.read())
-            exit()
+elif autorun:
+    with open("out.booth.IL", "r") as f:
+        print("Running..\n\n")
+        exec(f.read())
+        exit()
 input("Press ENTER to return")
