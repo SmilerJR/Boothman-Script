@@ -72,7 +72,7 @@ Files included can also include more files, nestings includes.
 Note that files to be included should be placed in the src folder.
 Files in the main folder of boothmanscript are still able to be included, but they are usually used for libraries built into the language.
 
-## DATA TYPES
+# DATA TYPES
 Each variable has a type. The type tells the compiler how to use that variable correctly.
 There are 4 main types of data types in boothmancript:
 > 1. Boolean (True / False)
@@ -80,23 +80,23 @@ There are 4 main types of data types in boothmancript:
 > 3. Integers (Whole Number - 69)
 > 4. Float (Decimal Number - 69.420)
 
-### BOOLEANS 
+## BOOLEANS 
 Booleans are the simplest type in boothmancript, they can have 2 possible values: true / false
 Since booleans only have 2 possiblities (1 or 0) they can also be stored using very little space.
 ```
 let my_bool = true;  //type: bool
 ```
-### STRINGS
+## STRINGS
 Strings are used in boothmanscript to store text.
 ```
 let my_string = "Hello World!"; //type: str
 ```
-### INTEGERS
+## INTEGERS
 Integers are used to store whole numbers.
 ```
 let my_integer = 69; //type: int
 ```
-### FLOAT 
+## FLOAT 
 Float are used to store decimal numbers.
 ```
 let my_float = 69.420; //type: float
