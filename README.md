@@ -1,9 +1,9 @@
 # Boothman-Script
 BoothmanScript is a programming language made by immature students so if it doesnt work you know why, we kinda thought it would be cool to own our own programming language and it also looks good on a resume. It's Muti-Purpose and can be used for most programs.
 
-If you'd like to add to the language please email me: j.goodchild06@gmail.com
 
-P.s if you make a game with bootman script somehow please email me it id love to play
+
+P.s if you make a game with boothman script somehow please email me it id love to play
 
 # ABOUT
 As previously mentioned, BoothmanScript is the best language ever made.
